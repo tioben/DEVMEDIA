@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+span{
+    font-weight: bold;
+}
+
+nav{
+    padding: 15px 20%;
+    text-align: center;
+    text-align: start;
+    font-size: 24px;
+}
+
+header{
+    height: 300px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    text-align: end;
+    padding: 5% 20% 0 0;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+header span{
+    font-size: 24px;
+}
+
+main section{
+    padding: 40px 15%;
+}
+
+main .sec1{
+    text-align: center;
+}
+
+main .sec1 img{
+    width: 350px;
+}
+
+main .sec1 p{
+    margin: 20px 0 15px;
+    text-align: start;
+}
+
+.sec1 .esse{
+    border-left: solid 2px;
+    padding-left: 10px;
+}
+
+.sec2 {
+    padding: 0;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.sec2 h1{
+    background-color: white;
+    width: 160px;
+    border-radius: 30px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sec2 div{
+    background-color: white;
+    width: 100%;
+    padding: 40px 15%;
+    margin: 30px 0;
+}
+
+.sec2 div p{
+    padding: 10px 0;
+}
+
+footer{
+    padding: 40px 15%;
+}
+
+footer ul{
+    padding: 10px 0;
+}
+
