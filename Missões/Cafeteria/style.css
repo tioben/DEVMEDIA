@@ -1,0 +1,245 @@
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+    #c4a47c
+    #fff
+    #000000
+    #604829
+    #666
+    #ACACAC
+ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #604829;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+header nav .logo{
+    width: 60px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #c4a47c;
+    text-shadow: black 2px 3px 2px;
+}
+
+header .intro-banner{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: no-repeat center fixed;
+    background-size: cover;
+}
+
+header .intro-banner:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+header .intro-banner h1{
+    position: absolute;
+    top: calc(50% - 60px);
+    left: 15%;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 100px;
+}
+
+main .sec{
+    width: 100vw;
+    text-align: center;
+    padding: 60px 25%;
+    background-color: white;
+}
+
+main .sec h2{
+    padding-bottom: 30px;
+    color: #c4a47c;
+    font-weight: bold;
+}
+
+main .sec-banner{
+    width: 100%;
+    background: no-repeat center fixed;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main .sec-banner:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+main .sec-banner h2{
+    font-family: 'Fraunces', serif;
+    color: white;
+    background-color: #604829;
+    padding: 10px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    position: absolute;
+}
+
+main .contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: no-repeat center fixed;
+    gap: 60px;
+}
+
+main .contact:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+main .contact h2{
+    background-color: #604829;
+    color: white;
+    font-size: 26px;
+    padding: 10px 60px;   
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+main .contact .box{
+    background-color: #604829;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;   
+    font-family: 'Oswald', sans-serif;
+    text-shadow: black 2px 3px 2px;
+    text-align: center;
+}
+
+main .contact .box p{
+    padding: 10px;
+    font-weight: bold;
+}
+
+main .clocks{
+    background: no-repeat center fixed;
+    background-size: cover;
+    height: calc(100vh - 60px);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .clocks h2{
+    letter-spacing: 5px;
+}
+
+main .clocks .box{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+main .clocks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 10%;
+}
+
+main .clocks .line{
+    width: 75%;
+    padding-top: 1.2%;
+}
+
+main .clocks ul li{
+    text-align: start;
+    height: 20px;
+}
+
+main .clocks ul li div{
+    height: 1px;
+    background-color: white;
+    width: 100%;
+}
+
+main .clocks .horarios li{
+    text-align: end;
+} 
+
+main .clocks .box p{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+main .clocks .box .horarios p{
+    color: gray;
+}
+
+main .clocks .box .horarios span{
+    color: #c4a47c;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+footer span{
+    color: #c4a47c;
+}
+
+footer img{
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    width: 50px;
+}
