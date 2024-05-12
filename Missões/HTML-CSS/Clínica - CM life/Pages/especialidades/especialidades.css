@@ -1,0 +1,122 @@
+main .nav2{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+}
+
+main .nav2 ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    min-height: 60px;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+
+}
+
+main .nav2 a{
+    text-decoration: none;
+    font-size: 24px;
+    border-bottom: solid 4px #00cad1;
+    transition: all 300ms ease-in-out;
+    color: black;
+}
+
+main .nav2 a:hover{
+    color: #00cad1;
+    border-bottom: solid 4px #0c6e71;
+}
+
+main{
+    padding-top: 90px;
+}
+
+main article h2{
+    padding: 100px 10px 40px 10px;
+    text-align: center;
+    color: #78767a;
+    font-size: 28px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+section h2{
+    font-size: 24px;
+    color: #78767a;
+}
+
+section p{
+    text-align: center;
+    padding: 10px;
+}
+
+section .card{
+    width: 100%;
+    display: flex;  
+    padding: 10px; 
+}
+
+section table{
+    width: 100%;
+}
+
+section .card table th{
+    text-align: start;
+    color: white;
+    background-color: #00cad1;
+    padding: 10px;
+}
+
+section .card table tbody tr td{
+    padding: 20px 10px;
+}
+
+section .card table tbody tr:nth-of-type(odd){
+    background-color: lightgray;
+}
+
+section .card table tbody tr:nth-of-type(even){
+    background-color: whitesmoke;
+}
+
+section .card img{
+    width: 330px;
+    background-color: red;
+}
+
+/* Celular */
+@media only screen and (max-width: 425px){
+    section .card img{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 426px) and (max-width: 1023px){
+    section .card img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    main{
+        padding-top: 186px;
+    }
+
+    main article h2{
+        padding: 190px 10px 40px 10px;
+    }
+}

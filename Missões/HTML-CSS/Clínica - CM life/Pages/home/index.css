@@ -1,0 +1,184 @@
+@media all{
+    /* BACKGROUND */
+    header .background-home{
+        background: url("../../assets/img/recepcao.png") no-repeat center fixed;
+        background-attachment: cover;
+        height: 100vh;
+        position: relative;
+    }
+
+    header .background-home h1{
+        position: absolute;
+        font-size: 66px;
+        top: calc(50% - 60px);
+        color: white;
+        left: 5px;
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgb(100, 100, 100);
+    }
+
+
+    /* Sobre a clínica */
+    .about-clinic{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 40px;
+        padding: 60px 0;
+        max-width: 1024px;
+        margin: 0 auto;
+        color: #78767a;
+    }
+
+    .about-clinic p{
+        text-align: center;
+        font-size: 18px; 
+        padding: 20px;
+    }
+
+    .about-clinic h1{
+        padding-top: 90px;
+        font-size: 32px;
+    }
+
+    .about-clinic .card{
+        display: flex;
+        padding: 30px;
+    }
+
+    .about-clinic img{
+        width: 300px;
+    }
+
+    .about-clinic ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about-clinic h2{
+        font-weight: normal;
+        font-size: 22px;
+    }
+
+    .about-clinic li{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    /* Horários */
+    .schedulles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 60px 0;
+        max-width: 1300px;
+        margin: 0 auto;
+        color: #78767a;
+    }
+
+    .schedulles h1{
+        text-align: center;
+    }
+
+    .schedulles p{
+        max-width: 1024px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+
+    .schedulles .gallery{
+        width: 100%;
+    }
+
+    .schedulles .gallery ul{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .schedulles li{
+        width: 390px;
+        box-shadow: 0px 0px 10px rgba(150, 150, 150, 0.712);
+        border-radius: 5px;
+    }
+
+    .schedulles li img{
+        width: 100%;
+    }
+
+    .schedulles a{
+        text-decoration: none;
+        color: #78767a;
+
+    }
+
+    .schedulles li h3{
+        width: 100%;
+        text-align: center;
+        padding: 10px;    
+    }
+
+    .schedulles .view-schedulles{
+        background-color: #00cad1;
+        color: white;
+        padding: 20px 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .contact iframe{
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    /* Contatos */
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0 auto;
+        gap: 30px;
+        color: #78767a;
+        padding: 0px 30px 30px 30px;
+    }
+
+    .contact span{
+        font-weight: bold;
+    }
+}
+
+/* Celular */
+@media only screen and (max-width: 425px){
+    header .background-home h1{
+        font-size: 36px;
+        top: calc(50% - 36px);
+    }
+
+    .about-clinic img{
+        display: none;
+    }
+    .about-clinic h1{
+        padding-top: 180px;
+    }    
+}
+
+/* Tablet */
+@media only screen and (min-width: 426px) and (max-width: 1023px){
+    header .background-home h1{
+        font-size: 50px;
+        top: calc(50% - 60px);
+    }
+
+    .about-clinic img{
+        display: none;
+    }
+    .about-clinic h1{
+        padding-top: 180px;
+    }    
+}
