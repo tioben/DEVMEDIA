@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(1138740.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+main{
+    width: 80vw;
+    max-width: 1024px;
+}
+
+form{
+    background-color: white;
+}
+
+form h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.fieldset-main {
+    padding: 20px;
+}
+
+fieldset{
+    border: none;
+}
+
+main h2{
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box1 fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box1 input{
+    padding: 8px;
+}
+
+.box2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box2 .sub-box2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-box2 fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-box2 input, select{
+    padding: 8px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box3 .sub-box3{
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+
+}
+
+.sub-box3 fieldset{
+    display: flex;
+    gap: 10px;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sub-box4{
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 610px){
+    .box2{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    main{
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .box2 .sub-box2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <h1>Solicite um orçamento</h1>
+
+            <fieldset class="fieldset-main">
+                <h2>Informe seus dados</h2>
+                <fieldset class="box1">
+                    <fieldset>                    
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Nome completo" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email para contato" required>    
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label for="celular">Celular</label>
+                        <input type="tel" name="celular" placeholder="(xx) xxxxx-xxxx" required>    
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="box2">
+                    <fieldset class="sub-box2">
+                        <fieldset>
+                            <label for="ida">Data da ida</label>
+                            <input type="date" name="ida" required>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="volta">Data da volta</label>
+                            <input type="date" name="volta" required>
+                        </fieldset>
+                    </fieldset>
+
+                    <fieldset class="sub-box2">
+                        <fieldset>
+                            <label for="origem">Origem</label>
+                            <select name="origem" id="origem">
+                                <option value="">Partindo de</option>
+                            </select>
+                        </fieldset>
+    
+                        <fieldset>
+                            <label for="destino">Destino</label>
+                            <select name="destino" id="destino">
+                                <option value="">Indo para</option>
+                            </select>
+                        </fieldset>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="box3">
+                    <h3>Quarto com cama infantil?</h3>
+                    <fieldset class="sub-box3">
+                        <fieldset>
+                            <input type="radio" name="cama-infantil" id="cama-infantil-sim">
+                            <label for="cama-infantil">Sim</label>
+                        </fieldset>
+    
+                        <fieldset>
+                            <input type="radio" name="cama-infantil" id="cama-infantil-nao">
+                            <label for="cama-infantil">Não</label>
+                        </fieldset>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="box4">
+                    <h3>Preferências da hospedagem</h3>
+                    <fieldset class="sub-box4">
+                        <fieldset>
+                            <input type="checkbox" name="piscina" id="piscina">
+                            <label for="piscina">Piscina</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="checkbox" name="wifi" id="wifi">
+                            <label for="wifi">Wi-Fi</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="checkbox" name="garagem" id="garagem">
+                            <label for="garagem">Garagem</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="checkbox" name="suite" id="suite">
+                            <label for="suite">Suite</label>
+                        </fieldset>
+                    </fieldset>
+                </fieldset>
+                <button>Solicitar orçamento</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
